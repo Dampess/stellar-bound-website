@@ -1,0 +1,37 @@
+<template>
+  <footer class="bg-gray-900 text-white p-4">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <div>
+          <p class="font-roboto text-lg mb-2">Suivez-nous sur les réseaux sociaux :</p>
+          <!-- Liens vers les réseaux sociaux avec des logos cliquables -->
+          <div class="flex space-x-4">
+            <!-- Facebook -->
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 00-5 5v1H7a1 1 0 00-1 1v3a1 1 0 001 1h3v7a1 1 0 001 1h3a1 1 0 001-1v-7h2a1 1 0 001-1v-3a1 1 0 00-1-1h-2V7a3 3 0 013-3h3a1 1 0 001-1V3a1 1 0 00-1-1z" />
+              </svg>
+            </a>
+            <!-- YouTube -->
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6.5L12 12l-9 5.5V6.5zM21 6v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2z" />
+              </svg>
+            </a>
+            <!-- Twitter -->
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.46 2.45a9.1 9.1 0 01-2.6.715A4.594 4.594 0 0021.885.465a9.105 9.105 0 01-2.886 1.1 4.55 4.55 0 00-7.756 4.142c-3.79-.18-7.14-2.01-9.395-4.785a4.54 4.54 0 00-.616 2.295c0 1.585.806 2.985 2.02 3.812a4.568 4.568 0 01-2.07-.57v.056a4.55 4.55 0 003.648 4.45 4.615 4.615 0 01-2.063.078c.58 1.73 2.257 2.86 4.045 2.9a9.133 9.133 0 01-5.66 1.955A9.498 9.498 0 0011.34 17c6.6 0 10.2-5.64 10.2-10.536 0-.16 0-.32-.01-.48a7.6 7.6 0 001.88-1.95c-.67.3-1.4.5-2.14.595a4.278 4.278 0 001.96-2.37c-.86.53-1.8.905-2.81 1.11z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="mr-4 text-gray-400 hover:text-white transition duration-300 ease-in-out">Mentions légales</a>
+          <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+
