@@ -27,12 +27,18 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-  
+    '@nuxtjs/google-fonts',
   ],
-
+  googleFonts: {
+    families: {
+      Orbitron: true,
+      // Ajoutez d'autres polices Google Fonts si nécessaire
+    },
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  buildDir: 'dist',
 }

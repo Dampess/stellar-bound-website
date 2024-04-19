@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-800 text-white py-20">
-    <div class="container mx-auto p-4">
+  <div class="bg-gradient-to-b from-gray-800 to-darkBlue text-white">
+    <div class="container mx-auto p-8">
       <h2 id="histoire" class="font-orbitron text-4xl font-bold mb-8">Histoire et Univers</h2>
       <p class="font-roboto mb-8">Plongez dans le scénario passionnant et l'univers riche de StellarBound, où chaque planète cache ses propres secrets et dangers.</p>
       
@@ -28,4 +28,21 @@
   </div>
 </template>
 
+<style scoped>
+/* Styles spécifiques au composant */
+h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre portée sur le titre */
+}
 
+p {
+  letter-spacing: 0.5px; /* Espacement des lettres légèrement augmenté */
+}
+
+.grid > div {
+  border: 2px solid #2563eb; /* Bordure bleue autour des conteneurs */
+}
+
+img {
+  filter: brightness(80%) contrast(120%); /* Augmente le contraste et réduit la luminosité des images */
+}
+</style>
