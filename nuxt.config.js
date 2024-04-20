@@ -43,4 +43,7 @@ export default {
   generate: {
     dir: 'dist',
   },
+  router: {
+    base: '/dist/', // Remplacez 'sous-dossier' par le nom de votre sous-dossier
+  },
 }
