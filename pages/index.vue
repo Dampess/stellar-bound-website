@@ -114,4 +114,10 @@ export default {
 .background-image-container4:hover::before {
   opacity: 0.4; /* Opacité au survol */
 }
+
+  @media (max-width: 780px) {
+  .background-image-container4 {
+    height: 260vh; /* 100% de la hauteur de la fenêtre lorsque l'écran est inférieur à 780px */
+  }
+}
 </style>
