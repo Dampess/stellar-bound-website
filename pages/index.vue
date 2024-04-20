@@ -59,7 +59,7 @@ export default {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
-.background-image-container2::before {
+.background-image-container3::before {
   content: '';
   position: absolute;
   top: 0;
@@ -73,7 +73,7 @@ export default {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
-.background-image-container3::before {
+.background-image-container2::before {
   content: '';
   position: absolute;
   top: 0;
