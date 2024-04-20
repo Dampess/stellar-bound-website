@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gradient-to-b from-gray-800 to-darkBlue text-white">
+  <div class="relative text-white">
     <div class="container mx-auto p-8">
-      <h2 id="histoire" class="font-orbitron text-4xl font-bold mb-8">Histoire et Univers</h2>
-      <p class="font-roboto mb-8">Plongez dans le scénario passionnant et l'univers riche de StellarBound, où chaque planète cache ses propres secrets et dangers.</p>
+      <h2 id="histoire" class="font-orbitron text-4xl font-bold mb-8 z-900">Histoire et Univers</h2>
+      <p class="font-roboto mb-8 z-900">Plongez dans le scénario passionnant et l'univers riche de StellarBound, où chaque planète cache ses propres secrets et dangers.</p>
       
       <!-- Contenu détaillé sur l'histoire et l'univers -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -39,7 +39,8 @@ p {
 }
 
 .grid > div {
-  border: 2px solid #2563eb; /* Bordure bleue autour des conteneurs */
+  border: 2px solid #2563eb;
+  z-index: 900; /* Bordure bleue autour des conteneurs */
 }
 
 img {

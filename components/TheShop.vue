@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-b from-darkBlue to-gray-800 text-white">
+  <div class="relative text-white">
     <div class="container mx-auto p-8">
       <h2 id="shop" class="font-orbitron text-4xl font-bold mb-8">Le Shop</h2>
       <!-- Carousel des items -->
@@ -286,7 +286,7 @@ export default {
   flex: 0 0 calc(80% / 3);
   margin-right: 1%;
   transition: transform 0.5s ease;
-
+  z-index: 200;
 }
 
 .prev,
