@@ -41,9 +41,6 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   generate: {
-    dir: 'dist',
-  },
-  router: {
-    base: '/dist/', // Remplacez 'sous-dossier' par le nom de votre sous-dossier
+    dir: 'docs', // Changer le dossier de sortie de la génération en 'docs'
   },
 }
