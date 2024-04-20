@@ -6,10 +6,10 @@
       <Accueil />
       <Galerie />
     </div>
-    <div class="background-image-container3 bg-gradient-to-b from-darkBlue to-gray-800">
+    <div class="background-image-container3 bg-darkBlue">
       <TheShop />
     </div>
-    <div class="background-image-container4 bg-gradient-to-b from-gray-800 to-darkBlue">
+    <div class="background-image-container4 bg-darkBlue">
     <!-- Composant HistoireEtUnivers -->
     <HistoireEtUnivers />
     </div>
@@ -53,7 +53,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('~/static/background-image.jpg');
+  background-image: url('./static/background-image.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0;
@@ -66,7 +66,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('~/static/background-image2.jpg');
+  background-image: url('./static/background-image2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('~/static/background-image3.jpg');
+  background-image: url('./static/background-image3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -94,7 +94,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('~/static/background-image4.jpg');
+  background-image: url('./static/background-image4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
